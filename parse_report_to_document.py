@@ -8,7 +8,7 @@ from langchain.embeddings.openai import OpenAIEmbeddings
 
 from utils import save_docs_to_jsonl
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 for file in Path("./data/永續報告書_上市_111").iterdir():
     try:
